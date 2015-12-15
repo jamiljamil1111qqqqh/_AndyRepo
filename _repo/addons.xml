@@ -2206,32 +2206,84 @@ Addons Included
   </extension>
 </addon>
 
-<addon
-  id="skin.CarPC-touch_carbon"
-  version="3.1.0"
-  name="CarPC-touch_carbon"
-  provider-name="Dorel">
-  <requires>
-    <import addon="xbmc.gui" version="5.3.0"/>
-  </requires>
-  <extension
-    point="xbmc.gui.skin"
-    defaultthemename="Textures.xbt"
-    effectslowdown="0.76"
-    debugging="false">
-    <res width="1280" height="720" aspect="16:9" folder="16x9" />
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">CarPC touch screen skin</summary>
-    <description lang="en">The skin is based on re-Touched skin(Jezz_X) modified by Dorel</description>
-    <disclaimer lang="en">Use this skin with a touch screen or a mouse(the pointer is not being shown)</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-      <source></source>
-  </extension>
+<addon id="script.tvguidetecbox.CA" name="iVue TV Guide (Canada)" version="6.0.24" provider-name="TECBOX DreamHD">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py"/>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+	<extension point="xbmc.addon.metadata">
+		<description lang="en">iVue Guide allows you to combine some of your favourite live TV plugins for use with a fully working EPG</description>
+		<disclaimer lang="en">iVue Guide is based on FTV Guide by rayw1986 and Bluezed, which in turn is based on the original TV Guide addon by twinther.</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GPLv2</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+	</extension>
+</addon>
+
+<addon id="script.tvguidetecbox.Stalker" name="iVue TV Guide (Stalker)" version="6.0.24" provider-name="TECBOX DreamHD">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py"/>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+	<extension point="xbmc.addon.metadata">
+		<description lang="en">iVue Guide allows you to combine some of your favourite live TV plugins for use with a fully working EPG</description>
+		<disclaimer lang="en">iVue Guide is based on FTV Guide by rayw1986 and Bluezed, which in turn is based on the original TV Guide addon by twinther.</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GPLv2</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+	</extension>
+</addon>
+
+<addon id="script.tvguidetecbox.UK" name="iVue TV Guide (UK)" version="6.0.24" provider-name="TECBOX DreamHD">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py"/>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+	<extension point="xbmc.addon.metadata">
+		<description lang="en">iVue Guide allows you to combine some of your favourite live TV plugins for use with a fully working EPG</description>
+		<disclaimer lang="en">iVue Guide is based on FTV Guide by rayw1986 and Bluezed, which in turn is based on the original TV Guide addon by twinther.</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GPLv2</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+	</extension>
+</addon>
+
+<addon id="script.tvguidetecbox.USA" name="iVue TV Guide (USA)" version="6.0.24" provider-name="TECBOX DreamHD">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py"/>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+	<extension point="xbmc.addon.metadata">
+		<description lang="en">iVue Guide allows you to combine some of your favourite live TV plugins for use with a fully working EPG</description>
+		<disclaimer lang="en">iVue Guide is based on FTV Guide by rayw1986 and Bluezed, which in turn is based on the original TV Guide addon by twinther.</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GPLv2</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+	</extension>
 </addon>
 
 <addon
@@ -3130,26 +3182,6 @@ provider-name="Andy Jezz_X, Martijn, ronie">
                 <website>https://superrepo.org/</website>
                 </extension>
                 </addon>
-
-<addon
-  id="webinterface.chorus"
-  version="0.3.10"
-  name="Chorus"
-  provider-name="jez500">
-  <requires>
-    <import addon="xbmc.json" version="6.0.0" />
-  </requires>
-  <extension
-    point="xbmc.webinterface"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">A modern Web UI for your XBMC</summary>
-    <description lang="en">A modern Web UI for your XBMC. Browse your Music, Movies or TV Shows from the comfort of your own web browser.  You can play media via XBMC or stream it in your browser. Works best with Chrome but plays well with most modern browsers. For more, see github.com/jez500/chorus</description>
-    <platform>all</platform>
-    <language>en</language>
-    <source>https://github.com/jez500/chorus</source>
-    <forum>http://forum.xbmc.org/showthread.php?tid=183451</forum>
-  </extension>
-</addon>
 
 <addon
   id="xbmc.repo.plexbmc"

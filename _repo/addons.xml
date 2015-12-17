@@ -246,7 +246,7 @@ Profile:   \userdata\profiles\ProfileName</description>
 	</extension>
 </addon>
 
-    <addon id="repository.Andy" name="  [COLOR yellow]Andy[/COLOR] [COLOR red]Repository[/COLOR]" version="0.0.3" provider-name="Andy">
+    <addon id="repository.Andy" name="[COLOR yellow]Andy[/COLOR] [COLOR red]Repository[/COLOR]" version="0.0.3" provider-name="Andy">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -1175,21 +1175,17 @@ Profile:   \userdata\profiles\ProfileName</description>
 	</extension>
 </addon>
 
-
 <addon id="repository.metalkettle" name="MetalKettles Addon Repository" version="1.6.2" provider-name="MetalKettle">
-
 	<extension point="xbmc.addon.repository" name="MetalKettles Addon Repository">
 		<info compressed="false">http://offshoregit.com/metalkettle/addons.xml</info>
 		<checksum>http://offshoregit.com/metalkettle/addons.xml.md5</checksum>
 		<datadir zip="true">http://offshoregit.com/metalkettle/zips</datadir>
 	</extension>
-
 	<extension point="xbmc.addon.metadata">
 		<summary>Install my Addons</summary>
 		<description>Download and install addons from MetalKettle</description>
 		<platform>all</platform>
 	</extension>
-
 </addon>
 
 	<addon id="repository.MisterX" name="MisterX Repository" version="1.0.9" provider-name="MisterX">
@@ -1262,6 +1258,19 @@ Profile:   \userdata\profiles\ProfileName</description>
 	</extension>
 </addon>
 
+<addon id="repository.nanaddons" name=" Community Portal Addon Repository" version="1.1" provider-name="noobsandnerds.com">
+	<extension point="xbmc.addon.repository" name=" Community Portal Addon Repository">
+		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/CP/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/noobsandnerds/CP/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/CP/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Home of The Community Portal</summary>
+		<description>Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="1.3" provider-name="noobsandnerds">
 	<extension point="xbmc.addon.repository" name="noobsandnerds Repository">
 		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml</info>
@@ -1303,25 +1312,6 @@ Addons Inside - Videpphile, Filmikz, Freeroms Downloader</description>
 	</extension>
 </addon>
 
-<addon id="repository.p2p-streams.xbmc" name="p2p-streams repository" version="1.0.3" provider-name="enen92 - fightnight">
-	<extension point="xbmc.addon.repository" name="p2p-streams Repository">
-		<info compressed="false">http://p2p-strm.googlecode.com/svn/addons/addons.xml</info>
-		<checksum>http://p2p-strm.googlecode.com/svn/addons/addons.xml.md5</checksum>
-		<datadir zip="true">http://p2p-strm.googlecode.com/svn/addons</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>p2p-streams repository</summary>
-   		<description lang="en">Install P2P-Streams addon for XBMC! P2P-Streams addon makes it easy for you to watch peer-to-peer streams in XBMC without the need for external players. Currently supporting Acestream and Sopcast streams it comprises an auto-configuration tool that will download the engines specifically for your platform.
-Supported platforms: Linux (Ubuntu/Debian/CentOS), Raspberry Pi (Openelec,Raspbmc,Xbian), Windows, Mac, Android, Openelec x86_64, Linux armv7 (MXLinux).
-Credits: Cristi - Atlanta (xsopcast plugin); NouisMons (acestream engine plugin); Tarasian666 (Mac/Rpi/armv7 ace engines); Divingmule (livestreams plugin); Marquerite (addor art).</description>
-    		<description lang="pt">Instale o addon P2P-Streams para o XBMC! O addon p2p-Streams torna possível assistir de forma simples a streams peer-to-peer directamente no XBMC sem a necessidade de players externos. De momento suporta streams Ace (Acestreams) e Sopcast e inclui uma ferramenta de autoconfiguração que irá fazer o download das engines correspondentes ao seu sistema operativo.
-Plataformas suportadas: Linux (Ubuntu/Debian/CentOS), Raspberry Pi (Openelec,Raspbmc,Xbian), Windows, Mac, Android, Openelec x86_64, Linux armv7 (MXLinux).
-Créditos: Cristi - Atlanta (xsopcast plugin); NouisMons (acestream engine plugin); Tarasian666 (Mac/Rpi/armv7 ace engines); Divingmule (livestreams plugin); Marquerite (addor art).</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repository.pcd" name="PCD's Repository" version="1.0.1" provider-name="pcd">
 	<extension point="xbmc.addon.repository" name="PCD's Repository">
 		<info compressed="false">https://offshoregit.com/pcd/pcd-repo/addons.xml</info>
@@ -1346,30 +1336,6 @@ Créditos: Cristi - Atlanta (xsopcast plugin); NouisMons (acestream engine plugi
 		<description>Download Addon Templates</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon
-  id="repository.plexbmc.addons"
-  name="PleXBMC Add-ons for XBMC"
-  version="3.0.0"
-  provider-name="hippojay, pecinko, magnesium, wickning1">
-  <requires>
-    <import addon="xbmc.addon" version="12.0.0"/>
-  </requires>
-  <extension point="xbmc.addon.repository"
-             name="PlexBMC Add-on Repository">
-    <info compressed="true">http://hippojay.github.io/repository.plexbmc.addons/download/addons.xml</info>
-    <checksum>http://hippojay.github.io/repository.plexbmc.addons/download/addons.xml.md5</checksum>
-    <datadir zip="true">http://hippojay.github.io/repository.plexbmc.addons/download</datadir>
-    <hashes>true</hashes>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Install Add-ons for PleXBMC</summary>
-    <description lang="en">Install addons to enhance the Plex + XBMC relationship.  Cosy....</description>
-    <disclaimer lang="en"></disclaimer>
-    <platform>all</platform>
-    <nofanart>true</nofanart>
-  </extension>
 </addon>
 
 <addon id="repository.podgod" name="podgod repo" version="1.7" provider-name="podgod">
@@ -1411,8 +1377,6 @@ Créditos: Cristi - Atlanta (xsopcast plugin); NouisMons (acestream engine plugi
 		<platform>all</platform>
 	</extension>
 </addon>
-
-<addon id="repository.pulsar" name="Pulsar Repository" version="0.6.0" provider-name="steeve"><requires></requires><extension point="xbmc.addon.repository" name="Pulsar Repository"><info compressed="false">http://localhost:65251/repository/steeve/plugin.video.pulsar/addons.xml</info><checksum>http://localhost:65251/repository/steeve/plugin.video.pulsar/addons.xml.md5</checksum><datadir zip="true">http://localhost:65251/repository/steeve/</datadir></extension><extension point="xbmc.addon.metadata"><platform>all</platform><summary lang="en">Virtual repository for Pulsar Updates</summary></extension></addon>
 
 <addon id="repository.pulsarunofficial" name="Pulsar [COLOR red]Unofficial [/COLOR]Repo" version="2.0.0" provider-name="mancuniancol,iCanuck">
 	<extension point="xbmc.addon.repository" name="Pulsar Unofficial Repository">
@@ -3255,30 +3219,6 @@ provider-name="Andy Jezz_X, Martijn, ronie">
                 <website>https://superrepo.org/</website>
                 </extension>
                 </addon>
-
-<addon
-  id="xbmc.repo.plexbmc"
-  name="PleXBMC Add-ons for XBMC"
-  version="2.0.2"
-  provider-name="hippojay">
-  <requires>
-    <import addon="xbmc.addon" version="12.0.0"/>
-  </requires>
-  <extension point="xbmc.addon.repository"
-             name="PlexBMC Add-on Repository">
-    <info compressed="true">http://repository-plexbmc-addons.googlecode.com/git-history/frodo/addons.xml</info>
-    <checksum>http://repository-plexbmc-addons.googlecode.com/git-history/frodo/addons.xml.md5</checksum>
-    <datadir zip="true">http://repository-plexbmc-addons.googlecode.com/git-history/frodo/download</datadir>
-    <hashes>true</hashes>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Install Add-ons for PleXBMC</summary>
-    <description lang="en">Install addons to enhance the Plex + XBMC relationship.  Cosy....</description>
-    <disclaimer lang="en"></disclaimer>
-    <platform>all</platform>
-    <nofanart>true</nofanart>
-  </extension>
-</addon>
 
 <addon id="xbmc.repo.tecboxtvguide" name="iVue TV Guide Add-on" version="1.0.2" provider-name="DreamHD TECbox">
 	<extension point="xbmc.addon.repository" name="iVue TV Guide Add-ons Repository">

@@ -78,7 +78,7 @@
             <path pathversion="1">special://videoplaylists/</path>
             <thumbnail pathversion="1">DefaultVideoPlaylists.png</thumbnail>
             <allowsharing>true</allowsharing>
-        </source>
+        </source>    
         <source>
             <name>z IPTV Prozone</name>
             <path pathversion="1">http://prozone.getxbmc.com/playlists/</path>
@@ -133,16 +133,6 @@
     </pictures>
     <files>
         <default pathversion="1"></default>
-        <source>
-            <name>_C:</name>
-            <path pathversion="1">C:\</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
-            <name>_SD Card (Android)</name>
-            <path pathversion="1">SD:\</path>
-            <allowsharing>true</allowsharing>
-        </source>
         <source>
             <name>z._Architects.x10host</name>
             <path pathversion="1">http://architects.x10host.com/repo/</path>

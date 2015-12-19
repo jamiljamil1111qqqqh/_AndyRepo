@@ -12,8 +12,10 @@ Maintenance Program https://raw.githubusercontent.com/halikus/_AndyRepo/master/_
 
 Install Kodi http://kodi.tv/download/
 
-*Windows - 15.2 suggested for maximum compatability.
-
+*Windows
+16 Beta 4 is what i use.
+ 
+15.2 suggested for maximum compatability.
 15.2 no DX11 - http://mirrors.kodi.tv/releases/win32/kodi-15.2-Isengard.exe
 
 
@@ -52,6 +54,35 @@ System -> Settings -> Add-ons -> Install From Repository -> Select "Andy Reposit
 
 You can install Repositories (source of addons), Addons (the extra applications), preconfigured addon settings (Addon_data), and xmls.  The xml files are the sources of your media files.
 
+
+
+## Extra steps
+------------
+If you wish to have some extra (free) TV addons a few accounts are needed to be created on certain websites, and then the user account and password entered in the Kodi addons settings.
+
+USTVNow
+-sign up as a US citizen the free plan.
+<a href="https://watch.ustvnow.com/subscription/free-channels"></a>
+plugin.video.ustvnow
+plugin.video.ustvnow.tva
+
+FilmON
+-UK free TV service.  Sign up for the free plan.  Add channels to Favorites for the PVR addon.
+<a href="https://www.filmon.com/subscriptions/"></a>
+plugin.video.F.T.V
+plugin.video.filmon
+plugin.video.notfilmon
+pvr.filmon
+
+
+Optional accounts you can google.  These are free.  Paid services are up to you.
+plugin.audio.tuneinradio
+plugin.program.totalinstaller
+plugin.video.dextertv
+plugin.video.stalker
+plugin.video.uktvnow
+plugin.video.youtube
+script.trakt
 
 
 

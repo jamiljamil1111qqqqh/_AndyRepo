@@ -328,6 +328,20 @@ Profile:   \userdata\profiles\ProfileName</description>
 	</extension>
 </addon>
 
+<addon id="repository.blxd.plugins" name="blxd Add-on Repository" version="1.0.1" provider-name="blxd">
+    <extension point="xbmc.addon.repository" name="blxd Add-on Repository">
+        <info>https://raw.githubusercontent.com/blxd/xbmc.blxd.plugins/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/blxd/xbmc.blxd.plugins/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/blxd/xbmc.blxd.plugins/raw/master/plugins/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Install Add-ons from blxd Repository</summary>
+        <description>Add-ons for XBMC</description>
+        <disclaimer>by blxd</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.bond" name="Eugene Bond XBMC Add-ons" version="1.0.1" provider-name="Eugene Bond">
 	<extension point="xbmc.addon.repository" name="Eugene Bond XBMC Add-ons">
 		<info compressed="false">https://github.com/Eugene-Bond/xmbc-plugins/raw/master/addons.xml</info>

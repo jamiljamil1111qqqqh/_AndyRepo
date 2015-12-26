@@ -64,7 +64,7 @@
 
 <addon id="plugin.program.Andy"
  name="  [COLOR yellow]Andy[/COLOR] [COLOR red]Maintenance Tool[/COLOR]"
- version="0.0.3"
+ version="0.0.4"
  provider-name="Andy">
 
   <requires>
@@ -246,7 +246,7 @@ Profile:   \userdata\profiles\ProfileName</description>
 	</extension>
 </addon>
 
-    <addon id="repository.Andy" name="[COLOR yellow]Andy[/COLOR] [COLOR red]Repository[/COLOR]" version="0.0.3" provider-name="Andy">
+    <addon id="repository.Andy" name="[COLOR yellow]Andy[/COLOR] [COLOR red]Repository[/COLOR]" version="0.0.4" provider-name="Andy">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>

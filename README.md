@@ -5,9 +5,9 @@ Repo Main Page (This page) https://github.com/halikus/_AndyRepo
 
 This File https://raw.githubusercontent.com/halikus/_AndyRepo/master/README.md
 
-Repo Zip https://raw.githubusercontent.com/halikus/_AndyRepo/master/_repo/repository.Andy/repository.Andy-0.0.3.zip
+Repo Zip https://raw.githubusercontent.com/halikus/_AndyRepo/master/_repo/repository.Andy/repository.Andy-0.0.4.zip
 
-Maintenance Program https://raw.githubusercontent.com/halikus/_AndyRepo/master/_repo/plugin.program.Andy/plugin.program.Andy-0.0.3.zip
+Maintenance Program https://raw.githubusercontent.com/halikus/_AndyRepo/master/_repo/plugin.program.Andy/plugin.program.Andy-0.0.4.zip
 
 
 Install Kodi http://kodi.tv/download/

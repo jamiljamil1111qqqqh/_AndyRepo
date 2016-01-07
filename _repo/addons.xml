@@ -196,6 +196,25 @@ This is a Stalker hack to make it FREE!
 	</extension>
 </addon>
 
+<addon id="plugin.video.StalkerTA"
+       name=" StalkerTv (Andy)"
+       version="0.01"
+       provider-name="Andy">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>IPTV addon for Live TV Channels</summary>
+    <description>
+IPTV
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.StalkerTv"
        name="StalkerTv"
        version="7.0"

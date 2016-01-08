@@ -137,25 +137,6 @@ Profile:   \userdata\profiles\ProfileName</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.Cypher-S-hack"
-       name="Cypher Stalker Hack"
-       version="1.0"
-       provider-name="Cypher">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Cypher StalkerTv Hack</summary>
-    <description>
-This is a Stalker hack to make it FREE!
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.i4atv" name="[COLOR red]I4ATV[/COLOR]" version="12.0.0" provider-name="Inside 4ndroid">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
@@ -196,8 +177,8 @@ This is a Stalker hack to make it FREE!
 	</extension>
 </addon>
 
-<addon id="plugin.video.StalkerTA"
-       name=" StalkerTv (Andy)"
+<addon id="plugin.video.StalkerAndy"
+       name=" Stalker IPTV (Andy)"
        version="0.01"
        provider-name="Andy">
   <requires>
@@ -209,7 +190,26 @@ This is a Stalker hack to make it FREE!
   <extension point="xbmc.addon.metadata">
     <summary>IPTV addon for Live TV Channels</summary>
     <description>
-IPTV
+IPTV.  Clear cache if problems arise.
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.StalkerAndy2"
+       name=" Stalker IPTV Server 2 (Andy)"
+       version="0.01"
+       provider-name="Andy">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>IPTV addon for Live TV Channels</summary>
+    <description>
+IPTV.  Clear cache if problems arise.
     </description>
     <platform>all</platform>
   </extension>

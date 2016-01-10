@@ -5,6 +5,11 @@
     <video>
         <default pathversion="1"></default>
         <source>
+            <name>_Downloads</name>
+            <path pathversion="1">X:\DOWNLOADS\</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
             <name>_Movies</name>
             <path pathversion="1">D:\HD\</path>
             <path pathversion="1">E:\VIDEOS\</path>

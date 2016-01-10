@@ -5,11 +5,6 @@
     <video>
         <default pathversion="1"></default>
         <source>
-            <name>_Downloads</name>
-            <path pathversion="1">X:\Downloads\</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
             <name>_Movies</name>
             <path pathversion="1">D:\HD\</path>
             <path pathversion="1">E:\VIDEOS\</path>
@@ -78,7 +73,7 @@
             <path pathversion="1">special://videoplaylists/</path>
             <thumbnail pathversion="1">DefaultVideoPlaylists.png</thumbnail>
             <allowsharing>true</allowsharing>
-        </source>    
+        </source>
         <source>
             <name>z IPTV Prozone</name>
             <path pathversion="1">http://prozone.getxbmc.com/playlists/</path>
@@ -139,13 +134,18 @@
             <allowsharing>true</allowsharing>
         </source>
         <source>
+            <name>z._bbtsip</name>
+            <path pathversion="1">http://repo.bbtsip.tv/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
             <name>z._Blackbox</name>
             <path pathversion="1">http://theblackboxostv.co.uk/kodi/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>
-            <name>z._-DaffyList.com</name>
-            <path pathversion="1">http://daffyslist.com/repo/</path>
+            <name>z._Cypher</name>
+            <path pathversion="1">http://repo.run/cypher/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>
@@ -284,6 +284,11 @@
             <allowsharing>true</allowsharing>
         </source>
         <source>
+            <name>z._4legends.co. RH Project</name>
+            <path pathversion="1">http://4legends.co.uk/Legends/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
             <name>z._Shadows Repo</name>
             <path pathversion="1">http://shadowsrepo.info/shadows/</path>
             <allowsharing>true</allowsharing>
@@ -291,6 +296,11 @@
         <source>
             <name>z._Spartanpixel</name>
             <path pathversion="1">http://spartanpixel.net/Royalist_p/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>z._streamlive.to</name>
+            <path pathversion="1">http://repo.streamlive.to/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>
@@ -314,6 +324,16 @@
             <allowsharing>true</allowsharing>
         </source>
         <source>
+            <name>z._The UFO Repo</name>
+            <path pathversion="1">http://theuforepo.us/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>z._Wolfteam</name>
+            <path pathversion="1">http://repo.yulfiostv.com/wolfteam/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
             <name>z._xunitytalk (xunitytalk.com)</name>
             <path pathversion="1">http://xunitytalk.com/xfinity/</path>
             <allowsharing>true</allowsharing>
@@ -321,11 +341,6 @@
         <source>
             <name>z._xfinity (xfinity.xunitytalk.com)</name>
             <path pathversion="1">http://xfinity.xunitytalk.com/</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
-            <name>z._Zeus</name>
-            <path pathversion="1">http://zeusrepo.com/zeus/</path>
             <allowsharing>true</allowsharing>
         </source>
     </files>

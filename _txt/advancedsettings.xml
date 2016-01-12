@@ -17,8 +17,8 @@
   <!--<cachemembuffersize>104857600</cachemembuffersize>-->  <!-- Cache - Using 100MB of RAM for cache (which requires 300MB of free RAM).  -->  
   <!--<cachemembuffersize>52428800</cachemembuffersize>-->   <!-- Cache - Using 50MB of RAM for cache (which requires 150MB of free RAM).  -->    
   <!--<cachemembuffersize>157286400</cachemembuffersize>-->  <!-- Cache - A safe setting for most devices with 1GB of RAM that should help most users "on the edge". All protocols get cached, cache rate fills up pretty much as fast as possible, and cache size is 150MB, using 400MB of ram total.   -->   
-  <cachemembuffersize>20971520</cachemembuffersize> <!-- Kodi will not buffer ahead more than this. For the bytes set here, Kodi will consume 3x the amount of RAM. When set to 0 the cache will be written to disk instead of RAM -->
-  <readbufferfactor>2</readbufferfactor>  <!-- this factor determines the max readrate in terms of readbufferfactor * avg bitrate of a video file.
+  <cachemembuffersize>104857600</cachemembuffersize> <!-- Kodi will not buffer ahead more than this. For the bytes set here, Kodi will consume 3x the amount of RAM. When set to 0 the cache will be written to disk instead of RAM -->
+  <!--<readbufferfactor>2</readbufferfactor>-->  <!-- this factor determines the max readrate in terms of readbufferfactor * avg bitrate of a video file.
 This can help on bad connections to keep the cache filled. It will also greatly speed up buffering. Default value 1.0. Increase the fill-rate of the cache
 By default (value: 1), Kodi will only fill the cache a little above what is needed to play it back. It does this as to not max out your network and possibly max out some hardware.
  For most users and hardware, this setting shouldn't cause any issues, but be aware of it if you have unusual CPU spikes in your HTPC.
@@ -35,17 +35,6 @@ The value of this setting is a multiplier of the default limit. If Kodi is loadi
   <!--<httpproxypassword></httpproxypassword>--> <!-- password for Basic Proxy Authentication -->
 </network>
 
-<pvr>
-  <!--<timecorrection>0</timecorrection>--> <!-- Correct all times (epg tags, timer tags, recording tags) by this amount of minutes. -->
-  <!--<infotoggleinterval>3000</infotoggleinterval>--> <!-- If there is more than one pvr gui info item available, use this toggle delay in milliseconds. -->
-  <minvideocachelevel>5</minvideocachelevel>  <!-- Cache up to this level in the video buffer buffer before resuming playback if the buffers run dry. -->
-  <minaudiocachelevel>10</minaudiocachelevel>  <!-- Cache up to this level in the audio buffer before resuming playback if the buffers run dry. -->
-  <cacheindvdplayer>true</cacheindvdplayer>  <!-- Cache PVR stream in DVDPlayer. -->
-  <!--<channeliconsautoscan>true</channeliconsautoscan>-->  <!-- Automatically scan user defined folder for channel icons when loading internal channel groups. -->
-  <!--<autoscaniconsuserset>false</autoscaniconsuserset>-->  <!-- Mark channel icons populated by auto scan as "user set". -->
-  <!--<numericchannelswitchtimeout>1000</numericchannelswitchtimeout>-->  <!-- Time in ms before the numeric dialog auto closes when confirmchannelswitch is disabled. -->
-</pvr>
-
 <gui>
    <nofliptimeout>0</nofliptimeout>
    <algorithmdirtyregions>3</algorithmdirtyregions> 
@@ -59,8 +48,46 @@ The value of this setting is a multiplier of the default limit. If Kodi is loadi
    <ignoreerrors>true</ignoreerrors>  <!-- Set to true to silently ignore errors while scanning videos. This prevents the error dialogue box, so you don't have to keep hitting "yes" to keep scanning.-->
 </videoscanner>
 
+<input>
+   <enablemouse>true</enablemouse>
+   <remoteaskeyboard>true</remoteaskeyboard>
+</input>
+
+<videolibrary>
+    <actorthumbs>false</actorthumbs>
+    <!--<allitemsonbottom>false</allitemsonbottom>--> <!-- sorts the "*All" items at the bottom of the list when in Ascending order -->
+    <!--<backgroundupdate>false</backgroundupdate>-->  <!-- set to "true" to hide the video scanner dialog from the GUI -->
+    <!-- NOTE: To get this working properly, you have to do a 'Clean Library' in settings the first time after you enable the setting. -->
+    <!--<cleanonupdate>false</cleanonupdate>--> <!-- default set to false to prevent Kodi from removing items from the database while updating.  -->
+    <!--<usefasthash>true</usefasthash>-->  <!-- defaults to true. Set to false in order to skip hashing based on the folders modification time. -->
+    <!--<hideallitems>false</hideallitems>--> <!-- removes the "*All" items from the video library -->  <!-- This will be replaced in v15 with a GUI option. -->
+    <!--<hideemptyseries>false</hideemptyseries>--> <!-- set to "true" to hide empty series in the video library and prevent empty series from being removed during a library cleanup. -->
+    <!--<recentlyaddeditems>35</recentlyaddeditems>-->  <!-- number of recently added items. Defaults to 25 -->
+    <!--<itemseparator>/ </itemseparator>--> <!-- separator used for multiple artists/genres in tags. Note, this is *space* *slash* *space* -->
+    <!--<exportautothumbs>false</exportautothumbs>--> <!-- export auto-generated thumbs. Defaults to false -->
+    <!--<importwatchedstate>false</importwatchedstate>--> <!-- import previously exported playdate and playcount from .nfo files. Defaults to false -->
+    <!--<importresumepoint>false</importresumepoint>--> <!-- import previously exported resume point from .nfo files. Defaults to false -->  
+    <!--<mymovies>--> <!-- Options specific to MyMovies XML file parsing -->
+    <!--<categoriestogenres>false</categoriestogenres>--> <!-- Add MyMovies Custom Categories to Genres (boolean, default is false) -->
+    <!--</mymovies>-->
+    <!--<dateadded>1</dateadded>-->  <!-- 0 results in using the current datetime when adding a video;
+                                          1 (default) results in prefering to use the files mtime (if it's valid) and only using the file's ctime if the mtime isn't valid;
+                                          2 results in using the newer datetime of the file's mtime and ctime -->
+</videolibrary>
+
+<pvr>
+  <!--<timecorrection>0</timecorrection>--> <!-- Correct all times (epg tags, timer tags, recording tags) by this amount of minutes. -->
+  <!--<infotoggleinterval>3000</infotoggleinterval>--> <!-- If there is more than one pvr gui info item available, use this toggle delay in milliseconds. -->
+  <!--<minvideocachelevel>5</minvideocachelevel>-->  <!-- Cache up to this level in the video buffer buffer before resuming playback if the buffers run dry. -->
+  <!--<minaudiocachelevel>10</minaudiocachelevel>-->  <!-- Cache up to this level in the audio buffer before resuming playback if the buffers run dry. -->
+  <!--<cacheindvdplayer>true</cacheindvdplayer>-->  <!-- Cache PVR stream in DVDPlayer. -->
+  <!--<channeliconsautoscan>true</channeliconsautoscan>-->  <!-- Automatically scan user defined folder for channel icons when loading internal channel groups. -->
+  <!--<autoscaniconsuserset>false</autoscaniconsuserset>-->  <!-- Mark channel icons populated by auto scan as "user set". -->
+  <!--<numericchannelswitchtimeout>1000</numericchannelswitchtimeout>-->  <!-- Time in ms before the numeric dialog auto closes when confirmchannelswitch is disabled. -->
+</pvr>
+
 <video>
-  <defaultplayer>dvdplayer</defaultplayer>  <!-- Set the default video player: dvdplayer or extplayer. -->
+  <!--<defaultplayer>dvdplayer</defaultplayer>-->  <!-- Set the default video player: dvdplayer or extplayer. -->
   <!--<subsdelayrange>10</subsdelayrange>--> <!-- Delay range for subtitles, in seconds. -->
   <!--<audiodelayrange>10</audiodelayrange>--> <!-- Delay range for audio/video sync, in seconds. -->
   <!--<usetimeseeking>true</usetimeseeking>--> <!-- Whether to use time based or percentage based seeking. -->
@@ -111,11 +138,6 @@ The value of this setting is a multiplier of the default limit. If Kodi is loadi
    <screen>2</screen>
 </videoscreen>-->
 
-<input>
-   <enablemouse>true</enablemouse>
-   <remoteaskeyboard>true</remoteaskeyboard>
-</input>
-
 <audio>
   <!--<headroom>0</headroom>-->  <!-- Amount of headroom Kodi should use above the maximum volume level, in decibels.  Defaults to 0, valid values 0, 6, 12. -->
   <!--<defaultplayer>paplayer</defaultplayer>-->  <!-- Default audio player: paplayer or dvdplayer -->
@@ -142,28 +164,6 @@ The value of this setting is a multiplier of the default limit. If Kodi is loadi
   <!--<displayupdatepopup>true</displayupdatepopup>--> <!-- display a progress popup while updating EPG data from clients -->
   <!--<displayincrementalupdatepopup>false</displayincrementalupdatepopup>--> <!-- also display a progress popup while doing incremental EPG updates -->
 </epg>
-
-<videolibrary>
-    <actorthumbs>false</actorthumbs>
-    <!--<allitemsonbottom>false</allitemsonbottom>--> <!-- sorts the "*All" items at the bottom of the list when in Ascending order -->
-    <!--<backgroundupdate>false</backgroundupdate>-->  <!-- set to "true" to hide the video scanner dialog from the GUI -->
-    <!-- NOTE: To get this working properly, you have to do a 'Clean Library' in settings the first time after you enable the setting. -->
-    <!--<cleanonupdate>false</cleanonupdate>--> <!-- default set to false to prevent Kodi from removing items from the database while updating.  -->
-    <!--<usefasthash>true</usefasthash>-->  <!-- defaults to true. Set to false in order to skip hashing based on the folders modification time. -->
-    <!--<hideallitems>false</hideallitems>--> <!-- removes the "*All" items from the video library -->  <!-- This will be replaced in v15 with a GUI option. -->
-    <!--<hideemptyseries>false</hideemptyseries>--> <!-- set to "true" to hide empty series in the video library and prevent empty series from being removed during a library cleanup. -->
-    <!--<recentlyaddeditems>35</recentlyaddeditems>-->  <!-- number of recently added items. Defaults to 25 -->
-    <!--<itemseparator>/ </itemseparator>--> <!-- separator used for multiple artists/genres in tags. Note, this is *space* *slash* *space* -->
-    <!--<exportautothumbs>false</exportautothumbs>--> <!-- export auto-generated thumbs. Defaults to false -->
-    <!--<importwatchedstate>false</importwatchedstate>--> <!-- import previously exported playdate and playcount from .nfo files. Defaults to false -->
-    <!--<importresumepoint>false</importresumepoint>--> <!-- import previously exported resume point from .nfo files. Defaults to false -->  
-    <!--<mymovies>--> <!-- Options specific to MyMovies XML file parsing -->
-    <!--<categoriestogenres>false</categoriestogenres>--> <!-- Add MyMovies Custom Categories to Genres (boolean, default is false) -->
-    <!--</mymovies>-->
-    <!--<dateadded>1</dateadded>-->  <!-- 0 results in using the current datetime when adding a video;
-                                          1 (default) results in prefering to use the files mtime (if it's valid) and only using the file's ctime if the mtime isn't valid;
-                                          2 results in using the newer datetime of the file's mtime and ctime -->
-</videolibrary>
 
 <musiclibrary>
     <!--<hideallitems>true</hideallitems>-->  <!-- removes the "*All" items from the music library -->  <!-- This will be replaced in v15 with a GUI option. -->

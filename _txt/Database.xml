@@ -149,28 +149,13 @@
             <allowsharing>true</allowsharing>
         </source>
         <source>
-            <name>z._Cypher</name>
-            <path pathversion="1">http://repo.run/cypher/</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
             <name>z._DexterTV</name>
             <path pathversion="1">http://dexteriptv.com/repo/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>
-            <name>z._Diavoletto</name>
-            <path pathversion="1">http://diavoletto-tv-repo.netne.net/</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
             <name>z._Fusion (TVAddons.ag)</name>
             <path pathversion="1">http://fusion.tvaddons.ag/</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
-            <name>z._HalowTV</name>
-            <path pathversion="1">http://halow.x10.bz/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>
@@ -209,7 +194,7 @@
             <allowsharing>true</allowsharing>
         </source>
         <source>
-            <name>z._Kodiland</name>
+            <name>z._Kodiland  WildTV</name>
             <path pathversion="1">http://kodiland.co/kodi/</path>
             <allowsharing>true</allowsharing>
         </source>
@@ -274,13 +259,13 @@
             <allowsharing>true</allowsharing>
         </source>
         <source>
-            <name>z._Prozone</name>
-            <path pathversion="1">http://prozone.getxbmc.com/</path>
+            <name>z._Project Cypher</name>
+            <path pathversion="1">http://repo.run/cypher/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>
-            <name>z._PulseMediaHub</name>
-            <path pathversion="1">http://pulsemediahub.x10host.com/</path>
+            <name>z._Prozone</name>
+            <path pathversion="1">http://prozone.getxbmc.com/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>
@@ -294,23 +279,8 @@
             <allowsharing>true</allowsharing>
         </source>
         <source>
-            <name>z._Shadows Repo</name>
-            <path pathversion="1">http://shadowsrepo.info/shadows/</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
-            <name>z._Spartanpixel</name>
-            <path pathversion="1">http://spartanpixel.net/Royalist_p/</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
             <name>z._streamlive.to</name>
             <path pathversion="1">http://repo.streamlive.to/</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
-            <name>z._StreamStorm</name>
-            <path pathversion="1">http://repo.streamstorm.tv/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>
@@ -336,11 +306,6 @@
         <source>
             <name>z._Wolfteam</name>
             <path pathversion="1">http://repo.yulfiostv.com/wolfteam/</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
-            <name>z._xunitytalk (xunitytalk.com)</name>
-            <path pathversion="1">http://xunitytalk.com/xfinity/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>

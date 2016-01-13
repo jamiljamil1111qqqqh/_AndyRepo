@@ -133,6 +133,43 @@
     </pictures>
     <files>
         <default pathversion="1"></default>
+         <source>
+            <name>z... (No Repos z.._) (Has Repo z._)</name>
+            <path pathversion="1">https://raw.githubusercontent.com/halikus/_AndyRepo/master/</path>
+            <allowsharing>true</allowsharing>
+        </source>         
+        
+         <source>
+            <name>z.._Blackbox</name>
+            <path pathversion="1">http://theblackboxostv.co.uk/kodi/</path>
+            <allowsharing>true</allowsharing>
+        </source>       
+        <source>
+            <name>z.._Justnewtech</name>
+            <path pathversion="1">http://justnewtech.com</path>
+            <allowsharing>true</allowsharing>
+        </source>        
+         <source>
+            <name>z.._Kodiland  WildTV</name>
+            <path pathversion="1">http://kodiland.co/kodi/</path>
+            <allowsharing>true</allowsharing>
+        </source>       
+        <source>
+            <name>z.._MetaBox</name>
+            <path pathversion="1">http://repo.mbox-addon.com/</path>
+            <allowsharing>true</allowsharing>
+        </source>        
+        <source>
+            <name>z.._Project Cypher</name>
+            <path pathversion="1">http://repo.run/cypher/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>z.._Prozone</name>
+            <path pathversion="1">http://prozone.getxbmc.com/</path>
+            <allowsharing>true</allowsharing>
+        </source>        
+                
         <source>
             <name>z._Architects.x10host</name>
             <path pathversion="1">http://architects.x10host.com/repo/</path>
@@ -141,11 +178,6 @@
         <source>
             <name>z._bbtsip</name>
             <path pathversion="1">http://repo.bbtsip.tv/repo/</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
-            <name>z._Blackbox</name>
-            <path pathversion="1">http://theblackboxostv.co.uk/kodi/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>
@@ -169,7 +201,7 @@
             <allowsharing>true</allowsharing>
         </source>
         <source>
-            <name>z._i4ATV</name>
+            <name>z._i4ATV-</name>
             <path pathversion="1">http://i4atv.cu.ma/i4a-repo/</path>
             <allowsharing>true</allowsharing>
         </source>
@@ -189,22 +221,12 @@
             <allowsharing>true</allowsharing>
         </source>
         <source>
-            <name>z._Justnewtech</name>
-            <path pathversion="1">http://justnewtech.com</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
-            <name>z._Kodiland  WildTV</name>
-            <path pathversion="1">http://kodiland.co/kodi/</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
             <name>z._KodiMaster</name>
             <path pathversion="1">http://kodimaster.com/repo/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>
-            <name>z._Kodi Next Gen Tools</name>
+            <name>z._Kodi Next Gen Tools-</name>
             <path pathversion="1">http://kngt.x10host.com/repo/</path>
             <allowsharing>true</allowsharing>
         </source>
@@ -219,11 +241,6 @@
             <allowsharing>true</allowsharing>
         </source>
         <source>
-            <name>z._MetaBox</name>
-            <path pathversion="1">http://repo.mbox-addon.com/</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
             <name>z._MetalKettle</name>
             <path pathversion="1">http://kodi.metalkettle.co/</path>
             <allowsharing>true</allowsharing>
@@ -234,7 +251,7 @@
             <allowsharing>true</allowsharing>
         </source>
         <source>
-            <name>z._MontrealAndroidTV</name>
+            <name>z._MontrealAndroidTV-</name>
             <path pathversion="1">http://upgrades.montrealandroidtv.com/</path>
             <allowsharing>true</allowsharing>
         </source>
@@ -256,16 +273,6 @@
         <source>
             <name>z._OperationRoboCop</name>
             <path pathversion="1">http://repo.shit.football/</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
-            <name>z._Project Cypher</name>
-            <path pathversion="1">http://repo.run/cypher/</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
-            <name>z._Prozone</name>
-            <path pathversion="1">http://prozone.getxbmc.com/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>

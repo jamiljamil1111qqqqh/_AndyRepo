@@ -159,7 +159,7 @@ Profile:   \userdata\profiles\ProfileName</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.dnatv" name="[COLOR darkorange]DNA[/COLOR] [COLOR lightblue]TV[/COLOR]" version="2.0.1" provider-name="Team DNA">
+<addon id="plugin.video.dnatv" name="[COLOR darkorange]DNA[/COLOR] [COLOR lightblue]TV[/COLOR]" version="2.0.2" provider-name="Team DNA">
     <requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -192,6 +192,29 @@ Profile:   \userdata\profiles\ProfileName</description>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">I4ATV With Guide Integration + More</summary>
     <description lang="en">Welcome to I4ATV. if a i4atv goes down for a short period there is a backup option i4atv extra :) All donations no matter how small make a huge difference so please feel free to make a small donation to help keep I4ATV alive. Donations can be made @ http://paypal.me/inside4ndroid Enjoy</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.SportsDevil"
+  version="2"
+  name="SportsDevil"
+  provider-name="MaxMustermann">
+  <requires>
+   <import addon="xbmc.python" version="2.14.0"/>
+   <import addon="script.module.requests" />
+   <import addon="script.module.pydevd" version="4.4.0" optional="true"/>
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Play videos of different sports streaming sites</summary>
+    <description>Play videos of different sports streaming sites</description>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <platform>all</platform>
   </extension>
 </addon>
@@ -235,56 +258,20 @@ IPTV.  Clear cache if problems arise.
   </extension>
 </addon>
 
-<addon id="plugin.video.StalkerAndy2"
-       name=" Stalker IPTV Server 2 (Andy)"
-       version="0.01"
-       provider-name="Andy">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>IPTV addon for Live TV Channels</summary>
-    <description>
-IPTV.  Clear cache if problems arise.
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.StalkerTv"
-       name="StalkerTv"
-       version="7.0"
-       provider-name="KodiLover and KrAz">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>StalkerTv</summary>
-    <description>
-This is my third attempt to make a iptv stalker clone and this is KrAz's second attempt to make a IPTV stalker clone Enjoy
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.Wild TV-Stalker" name="Wild TV Stalker" version="1.0.0" provider-name="xxxx">
+<addon id="plugin.video.stealthfree" name="IPTV Stealth Free" version="2.0.0" provider-name="iptvstealth.com">
     <requires>
 		<import addon="xbmc.python" version="2.14.0"/>
-	</requires>
+
+</requires>
 	<extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.service" library="server.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">xxxx</summary>
-		<description lang="en">Wild TV Stalker addon </description>
+		<summary lang="en">IPTV Stealth Plus</summary>
+		<description lang="en">TO HELP SUPPORT THIS ADDON PLEASE MAKE A DONATION AT WWW.IPTVSTEALTH.COM[CR][CR]This Addon Contains a mixture of codes credits for these codes go to[CR][CR]Esxbr, MetalKettle and Kodimaster[CR][CR]To Support Kodi visit www.kodi.tv</description>
+		    <website>http://www.iptvstealth.com/</website>
 		<license>GNU General Public License, v2</license>
 		<language></language>
 
@@ -524,11 +511,11 @@ This is my third attempt to make a iptv stalker clone and this is KrAz's second 
   </extension>
 </addon>
 
-<addon id="repository.BlazeRepo" name="Blazetamer's Repository" version="3.0" provider-name="Blazetamer">
+<addon id="repository.BlazeRepo" name="Blazetamer's Repository" version="3.1" provider-name="Blazetamer">
 <extension point="xbmc.addon.repository" name="Blaztamer's Addon Repository">
-<info compressed="false">http://offshoregit.com/Blazetamer/repo/raw/master/addons.xml</info>
-<checksum>http://offshoregit.com/Blazetamer/repo/raw/master/addons.xml.md5</checksum>
-<datadir zip="true">http://offshoregit.com/Blazetamer/repo/raw/master/zips</datadir>
+<info compressed="false">https://offshoregit.com/Blazetamer/repo/raw/master/addons.xml</info>
+<checksum>https://offshoregit.com/Blazetamer/repo/raw/master/addons.xml.md5</checksum>
+<datadir zip="true">https://offshoregit.com/Blazetamer/repo/raw/master/zips</datadir>
 </extension>
 <extension point="xbmc.addon.metadata">
 <summary>Install all of Blazetamer's Addons</summary>
@@ -1239,6 +1226,19 @@ This is my third attempt to make a iptv stalker clone and this is KrAz's second 
 	</extension>
 </addon>
 
+<addon id="repository.iconsultech" version="1.0.0" name=" [COLOR dodgerblue][B]i[/COLOR][COLOR white]ConsulTech Repository[/B][/COLOR]" provider-name=" [COLOR dodgerblue]i[/COLOR][COLOR white]ConsulTech Wizard[/COLOR]">
+  <extension point="xbmc.addon.repository" name="iConsulTech Repository">
+    <info compressed="false">https://github.com/iConsulTech/Repo/raw/master/zips/addons.xml</info>
+    <checksum>https://github.com/iConsulTech/Repo/raw/master/zips/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.github.com/iConsulTech/Repo/master/zips</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>iConsulTech System Tools</summary>
+    <description>Update | Backup | Restore Tools For Your System</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="repository.iptv.plugins" name="IPTV XBMC Add-ons" version="0.0.0.1" provider-name="erop1991@gmail.com">
 	<extension point="xbmc.addon.repository" name="IPTV XBMC Add-ons">
 		<info compressed="false">http://github.com/IICUX/xbmc-iptv-plugin/raw/master/xbmc_repo/addons.xml</info>
@@ -1514,6 +1514,8 @@ This is my third attempt to make a iptv stalker clone and this is KrAz's second 
     </extension>
 </addon>
 
+
+
 <addon id="repository.MaxMustermann.xbmc" name="MaxMustermann's add-ons" version="1.0.1" provider-name="MaxMustermann">
 	<extension point="xbmc.addon.repository" name="MaxMustermann's add-on repository">
 		<info compressed="false">http://xbmc-development-with-passion.googlecode.com/svn/branches/repo/addons.xml</info>
@@ -1706,6 +1708,19 @@ This is my third attempt to make a iptv stalker clone and this is KrAz's second 
 Addons Inside - Videpphile, Filmikz, Freeroms Downloader</description>
 
 	<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.OperationRobocop" name="Operation Robocop Ultimate Repository" version="1.5" provider-name="OperationRobocop Dev Team">
+	<extension point="xbmc.addon.repository" name="Operation Robocop Ultimate Repository">
+		<info compressed="false">http://addon.shit.football/zips/addons.xml</info>
+		<checksum>http://addon.shit.football/zips/addons.xml.md5</checksum>
+		<datadir zip="true">http://addon.shit.football/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Operation Robocop Ultimate</summary>
+		<description>Home of Operation Robocop Ultimate</description>
+		<platform>all</platform>
 	</extension>
 </addon>
 
@@ -1942,6 +1957,19 @@ Addons Inside - Videpphile, Filmikz, Freeroms Downloader</description>
 	</extension>
 </addon>
 
+<addon id="repository.schismtv.addons" name="SchisM TV Repository" version="1.19.3" provider-name="SchisM">
+	<extension point="xbmc.addon.repository" name="SchisM TV Repository">
+		<info compressed="false">https://raw.github.com/schismtv/buildrepo/master/addons.xml</info>
+		<checksum>https://raw.github.com/schismtv/buildrepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/schismtv/buildrepo/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install My Addons</summary>
+		<description>Download and install addons from SchisM</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.Sense8tion" version="1.0" name="Sense8tion Repo" provider-name="Sense8tion">
 	<extension point="xbmc.addon.repository" name="Sense8tion Repo">
 		<info compressed="false">https://github.com/Sense8tion/Sense8tion/raw/master/zips/addons.xml</info>
@@ -2111,7 +2139,7 @@ Addons Inside - Videpphile, Filmikz, Freeroms Downloader</description>
 	</extension>
 </addon>
 
-<addon id="repository.team.expat" name="Team eXpat Repository" version="1.0.6" provider-name="Team-eXpat">
+<addon id="repository.team.expat" name="Team eXpat Repository" version="1.0.7" provider-name="Team-eXpat">
 	<extension point="xbmc.addon.repository" name="Demonstration Add-on Repository">
 		<info compressed="false">http://raw.github.com/teamexpat/team.expat/master/addons.xml</info>
 		<checksum>http://raw.github.com/teamexpat/team.expat/master/addons.xml.md5</checksum>
@@ -2151,6 +2179,21 @@ Addons Inside - Videpphile, Filmikz, Freeroms Downloader</description>
 		<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="repository.TheWiz" name="TheWiz Hebrew Repository" version="2.1.5" provider-name="TheWiz">
+    <extension point="xbmc.addon.repository" name="TheWiz Hebrew Repository">
+        <info compressed="true">http://repo.thewiz.info/addons.xml</info>
+        <checksum>http://repo.thewiz.info/addons.xml.md5</checksum>
+        <datadir zip="true">http://repo.thewiz.info/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">A repository for all Hebrew must have Add-On. All updated</summary>
+        <summary lang="he">תוספים מומלצים ומעודכנים</summary>
+        <description lang="en">Hebrew Movies/TV Wall, Hebrew movies scraper, Hebrew Skins....</description>
+        <description lang="he">קיר סרטים וסדרות, סקרייפר לסרטים בעברית, עשרות סקינים בעברית ועוד</description>
+    </extension>
 </addon>
 
 <addon id="repository.TheYid" name="TheYid's REPO" version="2.0" provider-name="tcz009 AKA TheYid">
@@ -2635,6 +2678,20 @@ Addons Included
 	</extension>
 </addon>
 
+<addon id="repository.xlordkx" name="XLordKX Repo" version="1.0.0" provider-name="XLordKX">
+	<extension point="xbmc.addon.repository" name="XLordKX Repo">
+		<info compressed="false">https://raw.githubusercontent.com/XLordKX/kodi/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/XLordKX/kodi/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/XLordKX/kodi/master/zip/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Some fixed scripts and addons</summary>
+		<description>Some fixed scripts and addons</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.xstream" name="xStream Repository" version="1.0.5" provider-name="Lynx187">
     <extension point="xbmc.addon.repository" name="xStream Repository">
         <info compressed="false">http://raw.github.com/Lynx187/xStreamRepo/master/addons.xml</info>
@@ -2719,6 +2776,25 @@ Addons Included
     <email></email>
     <source></source>
   </extension>
+</addon>
+
+<addon id="script.module.pydevd" name="pydevd" version="4.4.0" provider-name="Fabio Zadrozny, Paul Backhouse">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.addon.metadata">
+	    <summary lang="en">Kodi support for PyDev remote debugging in Eclipse/Aptana.</summary>
+	    <description lang="en">See here for details: http://pydev.org/manual_adv_remote_debugger.html</description>
+	    <platform>all</platform>
+	    <language></language>
+	    <license>Eclipse Public License</license>
+	    <forum></forum>
+	    <website>http://pydev.org/</website>
+	    <source>https://github.com/powlo/script.module.pydevd</source>
+	    <email></email>
+	    <disclaimer lang="en">Use at your own risk. The authors accept no liability. May cause permanent and/or catastrophic damage. Side effects include, but are not limited to, loss of memory, seizures, sudden fits of rage, sudden fits of melancholy, inability to recall prominent capital cities, lack of respect for authority, fear of cats, temporary and/or permanent black outs. Avoid inhalation. Use in a well ventilated space. Keep away from small children.</disclaimer>
+	</extension>
 </addon>
 
 <addon id="script.module.simplejson"

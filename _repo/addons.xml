@@ -258,6 +258,25 @@ IPTV.  Clear cache if problems arise.
   </extension>
 </addon>
 
+<addon id="plugin.video.StalkerTv"
+       name="StalkerTv"
+       version="9.0"
+       provider-name="KodiLover and KrAz">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>StalkerTv</summary>
+    <description>
+This is my third attempt to make a iptv stalker clone and this is KrAz's second attempt to make a IPTV stalker clone Enjoy. Check out me and KrAz's YouTube Channels Also Big Thanks To KrAz For all The Macs he has Provided to me.
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.stealthfree" name="IPTV Stealth Free" version="2.0.0" provider-name="iptvstealth.com">
     <requires>
 		<import addon="xbmc.python" version="2.14.0"/>
@@ -272,6 +291,24 @@ IPTV.  Clear cache if problems arise.
 		<summary lang="en">IPTV Stealth Plus</summary>
 		<description lang="en">TO HELP SUPPORT THIS ADDON PLEASE MAKE A DONATION AT WWW.IPTVSTEALTH.COM[CR][CR]This Addon Contains a mixture of codes credits for these codes go to[CR][CR]Esxbr, MetalKettle and Kodimaster[CR][CR]To Support Kodi visit www.kodi.tv</description>
 		    <website>http://www.iptvstealth.com/</website>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+
+	</extension>
+</addon>
+
+<addon id="pluging.video.StalkerForever" name="Stalkerforever" version="2.0.0" provider-name="Chris XBMC-KING">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="server.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">StalkerForever</summary>
+		<description lang="en">this is my first addon to the public lmk when this addon goes down</description>
 		<license>GNU General Public License, v2</license>
 		<language></language>
 
@@ -1364,6 +1401,20 @@ IPTV.  Clear cache if problems arise.
         <description>הריפו של קודישראל - מאגר ההרחבות הגדול והאיכותי בישראל  </description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="repository.kodilover" name="KodiLover Repo" version="1.0" provider-name="KodiLover">
+	<extension point="xbmc.addon.repository" name="KodiLover Repo">
+		<info compressed="false">http://kodilover.net16.net/Plugins/addons.xml</info>
+		<checksum>http://kodilover.net16.net/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://kodilover.net16.net/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Kodi Addons</summary>
+		<description>Install Kodi Addons</description>
+		<disclaimer>KodiLover</disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="repository.kodinerds"
